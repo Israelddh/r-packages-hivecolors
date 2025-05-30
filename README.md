@@ -83,13 +83,10 @@ ggplot(mpg, aes(x = class, y = hwy, color = class)) +
 ![Boxplot](/figures/Boxplot.png)
 
 ## Features
-Generates smooth, perceptually uniform color palettes using a custom Hive color map.
-
-Supports both discrete and continuous color scales.
-
-Works natively with ggplot2 through convenient scale_color_hive(), scale_fill_hive(), and aliases.
-
-Customizable parameters for transparency (alpha), gradient direction, and color range (begin, end).
+- Generates smooth, perceptually uniform color palettes using a custom Hive color map.
+- Supports both discrete and continuous color scales.
+- Works natively with ggplot2 through convenient scale_color_hive(), scale_fill_hive(), and aliases.
+- Customizable parameters for transparency (alpha), gradient direction, and color range (begin, end).
 
 ## References
 The color interpolation is inspired by well-known palettes such as viridis. The design emphasizes smooth transitions and visual accessibility for data visualization.
