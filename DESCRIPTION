@@ -3,11 +3,11 @@ Type: Package
 Title: Hive Color Palettes for Data Visualization
 Version: 0.0.0.9000
 Authors@R: person(
-  given = "Israel David",
-  family = "Duarte Herrera",
-  email = "israelddh@hotmail.com",
-  role = c("aut", "cre"),
-  comment = c(ORCID = "https://orcid.org/0000-0001-5427-6019")
+    given = "Israel David",
+    family = "Duarte Herrera",
+    email = "israelddh@hotmail.com",
+    role = c("aut", "cre"),
+    comment = c(ORCID = "https://orcid.org/0000-0001-5427-6019")
 )
 Description: Provides perceptually uniform color palettes,
     designed for both discrete and continuous applications, fully compatible
@@ -20,3 +20,4 @@ Imports:
     grDevices
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
+
