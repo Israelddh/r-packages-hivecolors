@@ -30,6 +30,20 @@ ggplot(iris, aes(x = Sepal.Length, y = Petal.Length, color = Petal.Length)) +
   geom_point(size = 3) +
   scale_color_hive()
 ```
+![Scatter plot](/figures/Scatter.png)
+
+Bar plot with Hive discrete palette and labels
+
+```r
+counts <- as.data.frame(table(mpg$class))
+ggplot(counts, aes(x = Var1, y = Freq, fill = Var1)) +
+  geom_col() +
+  scale_fill_hive(discrete = TRUE) +
+  geom_text(aes(label = Freq), vjust = -0.3) +
+  theme_minimal() +
+  labs(title = "Count of Vehicles by Class", x = "Class", y = "Count")
+```
+![Bar plot](/figures/Barplot.png)
 
 Heatmap example using continuous fill scale
 
@@ -44,6 +58,19 @@ ggplot(volcano_df, aes(x = x, y = y, fill = height)) +
   geom_raster() +
   scale_fill_hive()
 ```
+![Heatmap plot](/figures/Heatmap.png)
+
+Ridgeline density plot example
+
+```r
+ggplot(diamonds, aes(x = price, y = cut, fill = stat(x))) +
+  geom_density_ridges_gradient(scale = 3, rel_min_height = 0.01) +
+  scale_fill_gradientn(colors = hive_colors(256)) +
+  theme_minimal() +
+  labs(title = "Ridgeline Density Plot of Diamond Prices by Cut")
+
+```
+![Ridgeline plot](/figures/Ridgeline.png)
 
 Discrete color scale example with boxplot and jitter
 
@@ -53,6 +80,7 @@ ggplot(mpg, aes(x = class, y = hwy, color = class)) +
   geom_jitter(width = 0.2) +
   scale_color_hive(discrete = TRUE)
 ```
+![Boxplot](/figures/Boxplot.png)
 
 ## Features
 Generates smooth, perceptually uniform color palettes using a custom Hive color map.
