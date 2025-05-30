@@ -95,9 +95,8 @@ Customizable parameters for transparency (alpha), gradient direction, and color 
 The color interpolation is inspired by well-known palettes such as viridis. The design emphasizes smooth transitions and visual accessibility for data visualization.
 
 ## Author
-
-Israel David Duarte Herrera
-israelddh@hotmail.com
-2025
+Israel David Duarte Herrera  
+israelddh@hotmail.com  
+2025  
 
 
