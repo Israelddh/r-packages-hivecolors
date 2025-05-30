@@ -1,4 +1,4 @@
-# hivecolors
+# HiveColors
 
 A custom color palette package for R, designed to provide beautiful, smooth color gradients inspired by the natural tones of a hive. Easily use discrete or continuous Hive palettes in your visualizations, with seamless integration for **ggplot2**.
 
