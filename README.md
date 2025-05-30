@@ -96,6 +96,7 @@ The color interpolation is inspired by well-known palettes such as viridis. The 
 
 ## Author
 Israel David Duarte Herrera
+israelddh@hotmail.com
 2025
 
 
