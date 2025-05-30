@@ -2,7 +2,7 @@
 
 A custom color palette package for R, designed to provide beautiful, smooth color gradients inspired by the natural tones of a hive. Easily use discrete or continuous Hive palettes in your visualizations, with seamless integration for **ggplot2**.
 
-![Hive Palette Bar](hivecolors/figures/hive_palette_bar.png)
+![Hive Palette Bar](/figures/hive_palette_bar.png)
 
 ---
 
@@ -63,10 +63,10 @@ Works natively with ggplot2 through convenient scale_color_hive(), scale_fill_hi
 
 Customizable parameters for transparency (alpha), gradient direction, and color range (begin, end).
 
-##References
+## References
 The color interpolation is inspired by well-known palettes such as viridis. The design emphasizes smooth transitions and visual accessibility for data visualization.
 
-##Author
+## Author
 Israel David Duarte Herrera
 2025
 
